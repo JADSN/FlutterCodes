@@ -77,3 +77,7 @@ drwxrwxr-x 2 labolicha labolicha 4,0K out  2 13:06 test
 ### Bash helpers
 1. `date +%Y-%m-%d`
 1. `man strftime`
+
+### Books
+
+[**Flutter Apprentice**](https://github.com/raywenderlich/flta-materials)
