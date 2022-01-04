@@ -3,6 +3,20 @@ Flutter codes
 
 ## Flutter Setup
 
+## 1. Change gradle version
+[Gradle - latest version](https://maven.google.com/web/index.html#com.android.tools.build:gradle)
+
+**Path**: `"android/gradle/wrapper/gradle-wrapper.properties"` **line 6**
+**Change zip version:**` gradle-<new_version>-all.zip`
+
+## 2. Update kotlin version:
+[Kotlin - latest version](https://kotlinlang.org/docs/releases.html)
+
+**Path**: `"android/build.gradle"` **line 1**
+
+**Path**: `"android/build.gradle"` **line 9**
+**Change classpath:** `com.android.tools.build:gradle:<new_version>` - *For version definition - see error in debug console*
+
 ## Setup Docker
 
 1. `sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev docker.io`
